@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# checks if a file exists or not
+if [ -e GCS_3_problems_20221105 ]
+then
+    if [ -s GCS_3_problems_20221105 ]
+    then
+        echo "0"
+    else
+        echo "1"
+    fi
+else
+    echo "2"
+fi
